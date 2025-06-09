@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Swiper Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+    <!-- Font Awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Header & Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo"> 
+                <h2 class="logo-text">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill=" #FFE8CD">
+                      <path d="M400-160h160v-44l50-20q65-26 110.5-72.5T786-400H174q20 57 65 103.5T350-224l50 20v44Zm-80 80v-70q-107-42-173.5-130T80-480h80v-320l720-80v60l-460 52v68h460v60H420v160h460q0 112-66.5 200T640-150v70H320Zm0-620h40v-62l-40 5v57Zm-100 0h40v-50l-40 4v46Zm100 220h40v-160h-40v160Zm-100 0h40v-160h-40v160Zm260 80Z"/>
+                    </svg>
+                    <span>NomNomPop</span>
+                  </h2>    
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fa-solid fa-xmark"></button>
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Feedback</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Events</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    
+    
+    <main>
+        <!-- hero-section -->
+        <section class="hero-section">
+             <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Good Food Finds You Here.</h2>
+                    <h3 class="subtitle">Bold Street Food. Big Flavor. Always on the Move.</h3>
+                    <i class="description">Catch us at your local market or festival and taste why everyone’s craving the next stop.</i>
+                    <div class="buttons">
+                        <a href="" class="button order-now">Order Now</a>
+                        <a href="" class="button contact-us">Contact us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="image/shopherosection.png" alt="Hero" class="hero-image">
+                </div>
+             </div>
+        </section>
+
+        <!-- about section
+         <section class="about-section">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="image/aboutsection.png" alt="About Us" class="about-image">
+                </div>
+            </div>
+         </section> -->
+
+        <!-- menu section -->
+         <section class="menu-section">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+               <ul class="menu-list">
+                <li class="menu-item">
+                    <img src="image/quick-shoyu-ramen.png" alt="shoyu-ramen" class="menu-image">
+                    <h3 class="name"> shoyu-ramen </h3>
+                    <p class="text"> a popular Japanese noodle soup</p>
+                </li>
+                <li class="menu-item">
+                    <img src="image/Noodles-with-chilli-oil-egg.png" alt="Fire Nest Noodles" class="menu-image">
+                    <h3 class="name">Fire Nest Noodles</h3>
+                    <p class="text">A  bowl of stir-fried egg noodles </p>
+                </li>
+                <li class="menu-item">
+                    <img src="image/Korean-Udon-Noodle-Soup.png" alt="Seoul Street Udon" class="menu-image">
+                    <h3 class="name">Seoul Street Udon</h3>
+                    <p class="text"> Thick udon noodles in a savory broth with fish cakes, egg, and scallions </p>
+                </li>
+                <li class="menu-item">
+                    <img src="image/Gochujang-Noodles.png" alt="Gochujang Fire Noodles" class="menu-image">
+                    <h3 class="name"> Gochujang Fire Noodles
+                    </h3>
+                    <p class="text">Korean-style spicy noodles tossed in gochujang chili paste, garlic, and crisp veggies</p>
+                </li>
+                <li class="menu-item">
+                    <img src="image/glass-noodle-soup.png" alt="Clear Glass Noodle Soup" class="menu-image">
+                    <h3 class="name">Clear Glass Noodle Soup</h3>
+                    <p class="text">Light, silky broth with glass noodles, napa cabbage, and mushrooms </p>
+                </li>
+                <li class="menu-item">
+                    <img src="image/Garlic Miso Noodle Soup.png" alt="Garlic Miso Noodle Soup" class="menu-image">
+                    <h3 class="name">Garlic Miso Noodle Soup </h3>
+                    <p class="text">pure umami comfort in a bowl.</p>
+                </li>
+                <li class="menu-item">
+                    <img src="image/chinese-fried-noodles.png" alt="Golden Wok Chow Mein" class="menu-image">
+                    <h3 class="name"> Golden Wok Chow Mein</h3>
+                    <p class="text">Stir-fried egg noodles tossed with carrots, scallions, and sesame seeds </p>
+                </li>
+                <li class="menu-item">
+                    <img src="image/chinese-beef-stew.png" alt="Slow-Braised Beef Noodle Soup" class="menu-image">
+                    <h3 class="name">Slow-Braised Beef Noodle Soup</h3>
+                    <p class="text">a comforting classic with deep flavor.</p>
+                </li>
+                <li class="menu-item">
+                    <img src="image/Chinese-Beef-Noodle-Soup.png" alt="Chunky Braised Beef Noodles" class="menu-image">
+                    <h3 class="name">Chunky Braised Beef Noodles</h3>
+                    <p class="text">comfort food at its finest.</p>
+                </li>
+
+                <!-- rice -->
+                <li class="menu-item">
+                    <img src="image/1.-Bulgogi-Kimbap-Bulgogi-Seaweed-Rice-Rolls.png" alt="Bulgogi Kimbap" class="menu-image">
+                    <h3 class="name">Bulgogi Kimbap</h3>
+                    <p class="text">a Korean street food favorite.</p>
+                </li>
+
+                <!-- side dish menu -->
+                <li class="menu-item">
+                    <img src="image/kimchi.png" alt="House-Fermented Kimchi" class="menu-image">
+                    <h3 class="name">House-Fermented Kimchi </h3>
+                    <p class="text">our small-batch kimchi is the perfect sidekick to every dish.</p>
+                </li>
+                <li class="menu-item">
+                    <img src="image/bambooshoot-side-dish.png" alt="Spicy Bamboo Shoots" class="menu-image">
+                    <h3 class="name">Spicy Bamboo Shoots</h3>
+                    <p class="text">Crisp bamboo shoots tossed in chili oil, vinegar, and fresh herbs</p>
+                </li>
+               </ul>
+            </div>
+         </section>
+
+         <!-- feedback section -->
+          <section class="testimonials-section">
+            <h2 class="section-title ">What Our Customers Say</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user1.jpg" alt="" class="user-image">
+                                <h3 class="name"> David</h3>
+                                <i class="feedback">NomNomPop hits the spot every time! Their spicy noodles are next level. I’ve followed them to three markets already — totally worth it!</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user2.jpg" alt="" class="user-image">
+                                <h3 class="name">Sophie</h3>
+                                <i class="feedback">I love how fresh everything tastes. Their kimchi and side dishes are just as good as the mains. You can feel the care in every bite!</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user4.jpg" alt="" class="user-image">
+                                <h3 class="name">Jason </h3>
+                                <i class="feedback">Tried the beef noodle soup at their pop-up last weekend — absolutely amazing. Reminded me of street food I had in Taiwan.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user3.jpg" alt="" class="user-image">
+                                <h3 class="name">Emily</h3>
+                                <i class="feedback">Super cute stall and even better food. The fire noodles were spicy but so addictive. Can't wait to bring my friends next time!</i>
+                            </li>
+                        </ul>
+                        <div class=" swiper-pagination"></div>
+                        <div class="swiper-slide-button  swiper-button-prev"></div>
+                        <div class="swiper-slide-button  swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- Events -->
+         
+
+           <!-- Contact section -->
+            <section class="contact-section">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <i class="fa-brands fa-facebook"></i>
+                            <a href="#" class=""></a>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-brands fa-instagram"></i>
+                            <a href="#" class=""></a>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>info@coffeeshopwebsite.com</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>(123) 4556-43524</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-globe"></i>
+                            <p>www.nomnompop.com</p>
+                        </li>
+                    </ul>
+                    <form action="#" class="contact-form">
+                        <input type="text" placeholder="Your Name" class="form-input" required>
+                        <input type="email" placeholder="Your Email" class="form-input" required>
+                        <textarea placeholder="Your Message" class="form-input" required></textarea>
+                        <button class="submit-button">Submit</button>
+                    </form>
+                </div>
+            </section>
+
+    </main>
+    <!-- Swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
